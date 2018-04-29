@@ -1,0 +1,11 @@
+version: '3.3'
+services:
+  backend:
+    image: dto80/project234-frontend
+    ports:
+      - "8087:8080"
+  frontend:
+    image: nack9993/234project-backend
+    ports:
+      - "8086:80"
+

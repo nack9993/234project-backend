@@ -1,0 +1,19 @@
+language: java
+before_install:
+- sudo rm /usr/local/bin/docker-compose
+- curl -L https://github.com/docker/compose/releases/download/1.20.1/docker-compose-`uname -s`-`uname -m` > docker-compose
+- chmod +x docker-compose
+- sudo mv docker-compose /usr/local/bin
+- docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD"
+install:
+- mvn install -Dmaven.javadoc.skip=true -B -V
+- ls -l
+- docker build --build-arg JAR_FILE=/target/nack9993.jar -t nack9993/234project-backend .
+- docker push nack9993/234project-backend
+- docker pull nack9993/234project-backend
+
+script: 
+- docker-compose -H "$DOCKER_HOST" up -d
+cache:
+ directories:
+ - "$HOME/.m2"
