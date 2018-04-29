@@ -4,7 +4,7 @@ services:
     image: dto80/project234-frontend
     ports:
       - "8087:8080"
-      volumes :
+     volumes :
       - type: bind
         source: ./settings
         target: /usr/share/nginx/html/assets
