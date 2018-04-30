@@ -7,7 +7,7 @@ services:
     volumes :
       - type: bind
         source: ./settings
-        target: /usr/share/nginx/assets
+        target: /usr/share/nginx/html/assets
   backend:
     image: nack9993/234project-backend
     ports:
