@@ -1,4 +1,5 @@
 language: java
+sudo: required
 before_install:
 - sudo rm /usr/local/bin/docker-compose
 - curl -L https://github.com/docker/compose/releases/download/1.20.1/docker-compose-`uname -s`-`uname -m` > docker-compose
@@ -10,7 +11,7 @@ install:
 - ls -l
 - docker build --build-arg JAR_FILE=/target/project.jar -t nack9993/234project-backend .
 - docker push nack9993/234project-backend
-- docker pull nack9993/234project-backend
+- docker pull dto80/project234-frontend:latest
 
 cache:
  directories:
