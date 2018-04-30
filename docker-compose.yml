@@ -4,13 +4,13 @@ services:
     image: dto80/project234-frontend
     ports:
       - "8087:80"
-  backend:
-    image: nack9993/234project-backend
-    ports:
-      - "8086:8080"
     volumes :
       - type: bind
         source: ./settings
         target: /usr/share/nginx/assets
+  backend:
+    image: nack9993/234project-backend
+    ports:
+      - "8086:8080"
 
 
