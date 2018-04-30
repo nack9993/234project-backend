@@ -11,6 +11,6 @@ services:
     volumes :
       - type: bind
         source: ./settings
-        target: /usr/share/nginx/html/assets
+        target: /usr/share/nginx/assets
 
 
