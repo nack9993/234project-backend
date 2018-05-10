@@ -19,6 +19,14 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     Long id;
+
+
+    public User(String username,String password,String role) {
+        this.username = username;
+        this.password = password;
+        this.role = role;
+    }
+
     String username;
     String password;
     String role;

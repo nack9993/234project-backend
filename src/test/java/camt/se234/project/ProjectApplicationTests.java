@@ -1,14 +1,15 @@
 package camt.se234.project;
 
+import camt.se234.project.dao.OrderDao;
+import camt.se234.project.dao.ProductDao;
 import camt.se234.project.dao.UserDao;
 import camt.se234.project.dao.UserDaoImpl;
 import camt.se234.project.entity.Product;
 import camt.se234.project.entity.SaleOrder;
 import camt.se234.project.entity.SaleTransaction;
+import camt.se234.project.entity.User;
 import camt.se234.project.repository.ProductRepository;
-import camt.se234.project.service.AuthenticationService;
-import camt.se234.project.service.AuthenticationServiceImpl;
-import camt.se234.project.service.SaleOrderService;
+import camt.se234.project.service.*;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -23,20 +24,11 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
 import static org.hamcrest.core.IsNull.notNullValue;
 import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class ProjectApplicationTests {
-    UserDao userDao;
-    AuthenticationServiceImpl authenticationService;
-
-    @Before
-    public void setup(){
-        userDao = mock(UserDao.class);
-        authenticationService = new AuthenticationServiceImpl();
-        authenticationService.setUserDao(userDao);
-    }
-
     @Test
     public void contextLoads() {
     }
@@ -67,9 +59,4 @@ public class ProjectApplicationTests {
 
     }
 
-    @Test
-    public void testAuthenticate() {
-        UserDaoImpl userDao = new UserDaoImpl();
-        authenticationService.setUserDao(userDao);
-    }
 }
