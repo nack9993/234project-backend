@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Confirm</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9bf5888f-4476-401c-af01-54e97da1fdc8</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fda351bd-a5aa-45d2-a908-d4568f310cff</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>892e6919-4bfd-4bad-b28b-58905bdb6c94</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ca84c7ea-637c-4d66-acc2-22baaf06b9cf</id>
+      <masked>false</masked>
+      <name>input</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b58c8034-02a1-45cf-838b-f48f420f8404</id>
+      <masked>false</masked>
+      <name>total</name>
+   </variable>
+</TestCaseEntity>

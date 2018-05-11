@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="77" tests="5" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="5" failures="0" errors="0" time="77" timestamp="2018-05-10 11:35:25" hostname="Skynack - 10.80.197.215" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Skynack\\git\\234project-backend\\Reports\\New Test Suite\\20180510_113523"/>
+         <property name="logFiles" value="C:\\Users\\Skynack\\git\\234project-backend\\Reports\\New Test Suite\\20180510_113523\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Skynack - 10.80.197.215"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="10.80.197.215"/>
+         <property name="sessionId" value="6bb3c8d8e4af80f1825ad9b04a6cc1bc"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Admin" classname="Test Cases/Admin" status="PASSED">
+         <system-out><![CDATA[2018-05-10 11:35:25 - [TEST_CASE][PASSED] - Test Cases/Admin: Test Cases/Admin
+
+2018-05-10 11:35:26 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-10 11:35:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-10 11:35:39 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.68.122.221:8087/' successfully
+
+2018-05-10 11:35:47 - [MESSAGE][PASSED] - Navigate to 'http://54.68.122.221:8087/' successfully
+
+2018-05-10 11:35:47 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_ProjectBackend/input_username'
+
+2018-05-10 11:35:47 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_ProjectBackend/input_username'
+
+2018-05-10 11:35:47 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_ProjectBackend/input_password'
+
+2018-05-10 11:35:47 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_ProjectBackend/input_password'
+
+2018-05-10 11:35:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 11:35:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 11:35:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend/a_Products' is clicked on
+
+2018-05-10 11:35:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend/a_Products' is clicked on
+
+2018-05-10 11:35:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend/a_Total Transaction' is clicked on
+
+2018-05-10 11:35:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend/a_Total Transaction' is clicked on
+
+2018-05-10 11:35:49 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-10 11:35:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User" classname="Test Cases/User" status="PASSED">
+         <system-out><![CDATA[2018-05-10 11:35:50 - [TEST_CASE][PASSED] - Test Cases/User: Test Cases/User
+
+2018-05-10 11:35:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-10 11:35:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-10 11:35:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.68.122.221:8087/' successfully
+
+2018-05-10 11:36:02 - [MESSAGE][PASSED] - Navigate to 'http://54.68.122.221:8087/' successfully
+
+2018-05-10 11:36:02 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/User/Page_ProjectBackend/input_username'
+
+2018-05-10 11:36:02 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/User/Page_ProjectBackend/input_username'
+
+2018-05-10 11:36:02 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/User/Page_ProjectBackend/input_password'
+
+2018-05-10 11:36:02 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/User/Page_ProjectBackend/input_password'
+
+2018-05-10 11:36:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 11:36:02 - [MESSAGE][PASSED] - Object: 'Object Repository/User/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 11:36:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/Page_ProjectBackend/a_Products' is clicked on
+
+2018-05-10 11:36:04 - [MESSAGE][PASSED] - Object: 'Object Repository/User/Page_ProjectBackend/a_Products' is clicked on
+
+2018-05-10 11:36:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/Page_ProjectBackend/a_Carts' is clicked on
+
+2018-05-10 11:36:04 - [MESSAGE][PASSED] - Object: 'Object Repository/User/Page_ProjectBackend/a_Carts' is clicked on
+
+2018-05-10 11:36:04 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-10 11:36:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Not correct" classname="Test Cases/Not correct" status="PASSED">
+         <system-out><![CDATA[2018-05-10 11:36:04 - [TEST_CASE][PASSED] - Test Cases/Not correct: Test Cases/Not correct
+
+2018-05-10 11:36:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-10 11:36:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-10 11:36:07 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.68.122.221:8087/' successfully
+
+2018-05-10 11:36:17 - [MESSAGE][PASSED] - Navigate to 'http://54.68.122.221:8087/' successfully
+
+2018-05-10 11:36:17 - [TEST_STEP][PASSED] - setText: Text 'asdfasdf' is set on object 'Object Repository/Not Correct/Page_ProjectBackend/input_username'
+
+2018-05-10 11:36:17 - [MESSAGE][PASSED] - Text 'asdfasdf' is set on object 'Object Repository/Not Correct/Page_ProjectBackend/input_username'
+
+2018-05-10 11:36:17 - [TEST_STEP][PASSED] - setText: Text 'asdfasdf' is set on object 'Object Repository/Not Correct/Page_ProjectBackend/input_password'
+
+2018-05-10 11:36:17 - [MESSAGE][PASSED] - Text 'asdfasdf' is set on object 'Object Repository/Not Correct/Page_ProjectBackend/input_password'
+
+2018-05-10 11:36:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Not Correct/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 11:36:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Not Correct/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 11:36:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Not Correct/Page_ProjectBackend/label_Usernamepassword is inco' is clicked on
+
+2018-05-10 11:36:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Not Correct/Page_ProjectBackend/label_Usernamepassword is inco' is clicked on
+
+2018-05-10 11:36:18 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-10 11:36:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Not input password" classname="Test Cases/Not input password" status="PASSED">
+         <system-out><![CDATA[2018-05-10 11:36:20 - [TEST_CASE][PASSED] - Test Cases/Not input password: Test Cases/Not input password
+
+2018-05-10 11:36:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-10 11:36:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-10 11:36:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.68.122.221:8087/' successfully
+
+2018-05-10 11:36:30 - [MESSAGE][PASSED] - Navigate to 'http://54.68.122.221:8087/' successfully
+
+2018-05-10 11:36:30 - [TEST_STEP][PASSED] - setText: Text 'dafasd' is set on object 'Object Repository/Not input password/Page_ProjectBackend/input_username'
+
+2018-05-10 11:36:30 - [MESSAGE][PASSED] - Text 'dafasd' is set on object 'Object Repository/Not input password/Page_ProjectBackend/input_username'
+
+2018-05-10 11:36:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Not input password/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 11:36:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Not input password/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 11:36:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Not input password/Page_ProjectBackend/label_Password is required' is clicked on
+
+2018-05-10 11:36:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Not input password/Page_ProjectBackend/label_Password is required' is clicked on
+
+2018-05-10 11:36:30 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-10 11:36:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Not input user name" classname="Test Cases/Not input user name" status="PASSED">
+         <system-out><![CDATA[2018-05-10 11:36:31 - [TEST_CASE][PASSED] - Test Cases/Not input user name: Test Cases/Not input user name
+
+2018-05-10 11:36:31 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-10 11:36:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-10 11:36:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.68.122.221:8087/' successfully
+
+2018-05-10 11:36:41 - [MESSAGE][PASSED] - Navigate to 'http://54.68.122.221:8087/' successfully
+
+2018-05-10 11:36:41 - [TEST_STEP][PASSED] - setText: Text 'asdasd' is set on object 'Object Repository/Not input user name/Page_ProjectBackend/input_password'
+
+2018-05-10 11:36:41 - [MESSAGE][PASSED] - Text 'asdasd' is set on object 'Object Repository/Not input user name/Page_ProjectBackend/input_password'
+
+2018-05-10 11:36:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Not input user name/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 11:36:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Not input user name/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 11:36:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Not input user name/Page_ProjectBackend/label_Username is required' is clicked on
+
+2018-05-10 11:36:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Not input user name/Page_ProjectBackend/label_Username is required' is clicked on
+
+2018-05-10 11:36:41 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-10 11:36:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-10 11:35:25 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/Not input user name]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
