@@ -25,4 +25,11 @@ public class SaleTransaction {
     @OneToOne (fetch = FetchType.EAGER)
     Product product;
     int amount;
+
+    public SaleTransaction(String s, SaleOrder saleOrder, Product product, int i) {
+        this.transactionId = s;
+        this.order = saleOrder;
+        this.product = product;
+        this.amount = i;
+    }
 }
